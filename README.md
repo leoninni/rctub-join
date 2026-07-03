@@ -2,7 +2,7 @@
 
 Website for Berlin's student robotics community at TU Berlin — covering autonomous drones, humanoids, and everything in between.
 
-**Live site:** https://rctub-robotics-hub-lmzn.vercel.app
+**Live site:** https://rctub-join.vercel.app
 
 ## Stack
 
