@@ -1,4 +1,4 @@
-const FORM_URL = "#PLACEHOLDER_FORM_URL";
+const FORM_URL = "https://forms.gle/DBw9egb8NzTrt5zn8";
 
 export function Apply() {
   return (
