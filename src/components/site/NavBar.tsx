@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/logo.svg";
+import { Logo } from "./Logo";
 
 export function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,7 +20,7 @@ export function NavBar() {
       <div className="container-page">
         <div className="inline-flex items-center rounded-full border border-border bg-background/70 px-4 py-2 backdrop-blur-md">
           <a href="#top">
-            <img src={logo} alt="RCTUB" className="h-5 w-auto" />
+            <Logo className="h-7 w-auto" />
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import heroImage from "@/assets/hero.jpg";
-import logo from "@/assets/logo.svg";
+import { Logo } from "./Logo";
 
 export function Hero() {
   return (
@@ -21,8 +21,8 @@ export function Hero() {
 
       <div className="container-page flex min-h-screen flex-col justify-center pt-32 pb-12">
         <div className="max-w-5xl pt-12 md:pt-24">
-          <img src={logo} alt="RCTUB" className="mb-10 h-8 w-auto opacity-90" />
-          <h1 className="display-text text-5xl md:text-7xl lg:text-[8.5rem]">
+          <Logo className="mb-12 h-10 w-auto" />
+          <h1 className="display-text tracking-tight text-5xl md:text-7xl lg:text-[9rem]">
             <span className="display-muted block">shape</span>
             <span className="block text-foreground">the future of</span>
             <span className="block text-accent">robotics</span>
