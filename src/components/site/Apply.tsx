@@ -16,8 +16,8 @@ export function Apply() {
             Ready to build something real?
           </h2>
           <p className="relative z-10 max-w-md text-muted-foreground">
-            Applications are open to all students in Berlin — no experience
-            required.
+            Applications are open to motivated students from all universities
+            in Berlin who want to shape the future of robotics.
           </p>
           <a
             href={FORM_URL}
