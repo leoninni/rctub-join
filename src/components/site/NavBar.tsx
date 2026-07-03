@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/logo.svg";
 
 export function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -17,10 +18,9 @@ export function NavBar() {
       }`}
     >
       <div className="container-page">
-        <div className="inline-flex items-center rounded-full border border-border bg-background/70 px-4 py-1.5 backdrop-blur-md">
-          <a href="#top" className="display-text text-sm tracking-tight">
-            <span className="text-foreground">rc</span>
-            <span className="text-accent">tub</span>
+        <div className="inline-flex items-center rounded-full border border-border bg-background/70 px-4 py-2 backdrop-blur-md">
+          <a href="#top">
+            <img src={logo} alt="RCTUB" className="h-5 w-auto" />
           </a>
         </div>
       </div>
