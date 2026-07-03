@@ -31,14 +31,6 @@ export function Hero() {
             through hands-on projects, peer learning, and industry collaboration.
           </p>
 
-          <div className="mt-10">
-            <a
-              href="#apply"
-              className="pill bg-accent text-accent-foreground border-accent hover:bg-accent/90"
-            >
-              Apply to join →
-            </a>
-          </div>
         </div>
       </div>
     </section>
