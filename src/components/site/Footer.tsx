@@ -1,11 +1,10 @@
+import { Logo } from "./Logo";
+
 export function Footer() {
   return (
     <footer className="border-t border-border bg-surface/40">
       <div className="container-page py-16">
-        <div className="display-text text-3xl">
-          <span className="text-foreground">RC</span>
-          <span className="text-accent">TUB</span>
-        </div>
+        <Logo className="h-8 w-auto" />
         <p className="mt-4 max-w-md text-sm text-muted-foreground">
           Robotics Club TU Berlin is a student association dedicated to enabling
           the next generation of robotics talent through education, hands-on
