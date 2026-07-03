@@ -21,9 +21,12 @@ export function Apply() {
           </p>
           <a
             href={FORM_URL}
-            className="pill relative z-10 bg-accent text-accent-foreground border-accent hover:bg-accent/90 px-8 py-4 text-base"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pill normal-case tracking-normal relative z-10 bg-accent text-accent-foreground border-accent hover:bg-accent/90 px-8 py-4 text-base"
           >
-            Apply to join →
+            Apply to join{" "}
+            <span aria-hidden="true">→</span>
           </a>
           <span className="relative z-10 text-sm text-muted-foreground">
             or{" "}

@@ -12,6 +12,7 @@ export function Hero() {
           alt=""
           width={1920}
           height={1088}
+          fetchPriority="high"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/40 to-background" />

@@ -1,5 +1,3 @@
-import "./lib/error-capture";
-
 import { consumeLastCapturedError } from "./lib/error-capture";
 import { renderErrorPage } from "./lib/error-page";
 
@@ -14,6 +12,9 @@ async function getServerEntry(): Promise<ServerEntry> {
     serverEntryPromise = import("@tanstack/react-start/server-entry").then(
       (m) => (m.default ?? m) as ServerEntry,
     );
+    serverEntryPromise.catch(() => {
+      serverEntryPromise = undefined;
+    });
   }
   return serverEntryPromise;
 }
