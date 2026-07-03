@@ -1,14 +1,13 @@
 export function About() {
   return (
-    <section id="about" className="border-t border-border py-20 md:py-28">
-      <div className="container-page max-w-2xl">
-        <div className="mb-6 text-xs uppercase tracking-[0.25em] text-muted-foreground">
-          01 /
-        </div>
-        <p className="text-lg text-muted-foreground">
-          RCTUB brings together students from all disciplines who want to go
-          beyond the classroom — building real systems, developing technical
-          skills, and connecting with Berlin's engineering community.
+    <section id="about" className="py-24 md:py-32">
+      <div className="container-page">
+        <p className="display-text max-w-4xl text-2xl leading-snug text-foreground md:text-[2.5rem]">
+          A student community at TU Berlin —{" "}
+          <span className="text-muted-foreground">
+            building real systems, developing technical skills, and connecting
+            with Berlin's engineering ecosystem.
+          </span>
         </p>
       </div>
     </section>
